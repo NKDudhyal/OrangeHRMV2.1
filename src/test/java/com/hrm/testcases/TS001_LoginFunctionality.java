@@ -18,8 +18,4 @@ public class TS001_LoginFunctionality extends BasePage{
 		Assert.assertEquals(actaul_ErrorMsg, expected_ErrorMsg, "Error Message doesn't visible or doesn't matchs.");
 	}
 	
-	@Test(priority = 2)
-	public void TC001_verify_user_should_login_with_valid_credentail() {
-		
-	}
 }
